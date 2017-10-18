@@ -1,5 +1,5 @@
 
-module.exports = linesToPSLG
+module.exports = util.deprecate(linesToPSLG, 'lines-to-pslg: Package renamed. Use paths-to-pslg instead')
 
 function linesToPSLG(lines) {
   const points = [], edges = []
