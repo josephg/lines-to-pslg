@@ -1,11 +1,11 @@
 
-module.exports = util.deprecate(linesToPSLG, 'lines-to-pslg: Package renamed. Use paths-to-pslg instead')
+module.exports = pathsToPSLG
 
-function linesToPSLG(lines) {
+function pathsToPSLG(paths) {
   const points = [], edges = []
 
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i]
+  for (let i = 0; i < paths.length; i++) {
+    const line = paths[i]
     if (line.length < 2) continue
     
     let prevPoint = points.push(line[0]) - 1

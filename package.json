@@ -1,24 +1,25 @@
 {
-  "name": "lines-to-pslg",
-  "version": "1.0.1",
+  "name": "paths-to-pslg",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josephg/lines-to-pslg.git"
+    "url": "git+https://github.com/josephg/paths-to-pslg.git"
   },
   "keywords": [
     "pslg",
     "line",
+    "path",
     "graph"
   ],
   "author": "Joseph Gentle <me@josephg.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/josephg/lines-to-pslg/issues"
+    "url": "https://github.com/josephg/paths-to-pslg/issues"
   },
-  "homepage": "https://github.com/josephg/lines-to-pslg#readme"
+  "homepage": "https://github.com/josephg/paths-to-pslg#readme"
 }
